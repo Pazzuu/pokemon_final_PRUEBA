@@ -1,0 +1,10 @@
+[
+  {
+    "especie": "agua",
+    "entrenado": true,
+    "disponibleIntercambio": true,
+    "nombre": "squirtle",
+    "nivel": 50,
+    "peso": 5.0
+  }
+]

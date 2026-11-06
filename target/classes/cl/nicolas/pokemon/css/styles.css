@@ -1,0 +1,111 @@
+/* Paleta de colores y estilos globales (tema Centro Pokémon) */
+.root-container {
+    -fx-background-color: #fdf8f2;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* Título Principal */
+.title-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e3350d; /* Rojo Pokémon */
+}
+
+/* Contenedores y Secciones */
+.form-grid {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 8px;
+    -fx-padding: 15px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.05), 8, 0, 0, 2);
+}
+
+/* Etiquetas del Formulario */
+.form-label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #34495e;
+    -fx-font-size: 13px;
+}
+
+/* Campos de Texto y ComboBox */
+.text-input, .combo-box {
+    -fx-background-radius: 4px;
+    -fx-border-color: #ced4da;
+    -fx-border-radius: 4px;
+    -fx-background-color: #ffffff;
+    -fx-padding: 5px;
+}
+
+.text-input:focused, .combo-box:focused {
+    -fx-border-color: #3b4cca; /* Azul Pokémon */
+    -fx-border-width: 1.5px;
+}
+
+/* CheckBox */
+.custom-checkbox {
+    -fx-text-fill: #2c3e50;
+    -fx-font-size: 13px;
+}
+
+/* Botones */
+.button-primary {
+    -fx-background-color: #3b4cca;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-padding: 8px 16px;
+    -fx-cursor: hand;
+}
+
+.button-primary:hover {
+    -fx-background-color: #2a3699;
+}
+
+.button-danger {
+    -fx-background-color: #e3350d;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+    -fx-padding: 8px 16px;
+    -fx-cursor: hand;
+}
+
+.button-danger:hover {
+    -fx-background-color: #b52a09;
+}
+
+/* Tabla de Datos */
+.table-view {
+    -fx-background-radius: 6px;
+    -fx-border-color: #dee2e6;
+    -fx-border-radius: 6px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #3b4cca; /* Azul Pokémon */
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+    -fx-size: 35px;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #fdf8f2;
+}
+
+.table-row-cell:even {
+    -fx-background-color: #ffffff;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #ffcb05; /* Amarillo Pikachu */
+}
+
+.table-row-cell:selected .text {
+    -fx-fill: #2c3e50;
+}
